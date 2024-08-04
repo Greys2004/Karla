@@ -2844,16 +2844,17 @@ textarea.form-control-lg {
   opacity: var(--bs-btn-disabled-opacity);
 }
 
+/* Color de boton al presionar */
 .btn-primary {
   --bs-btn-color: #fff;
   --bs-btn-bg: #ffc800;
   --bs-btn-border-color: #ffc800;
   --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #d9aa00;
+  --bs-btn-hover-bg: #ca376b;
   --bs-btn-hover-border-color: #cca000;
   --bs-btn-focus-shadow-rgb: 255, 208, 38;
   --bs-btn-active-color: #fff;
-  --bs-btn-active-bg: #cca000;
+  --bs-btn-active-bg: #e696df;
   --bs-btn-active-border-color: #bf9600;
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   --bs-btn-disabled-color: #fff;
@@ -4145,7 +4146,7 @@ textarea.form-control-lg {
   --bs-navbar-active-color: #fff;
   --bs-navbar-brand-color: #fff;
   --bs-navbar-brand-hover-color: #fff;
-  --bs-navbar-toggler-border-color: rgba(255, 255, 255, 0.1);
+  --bs-navbar-toggler-border-color: rgba(71, 37, 37, 0.1);
   --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 
@@ -10878,7 +10879,7 @@ p {
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-color: #212529;
+  background-color: #8e8e8e;
 }
 #mainNav .navbar-toggler {
   padding: 0.75rem;
@@ -10897,6 +10898,8 @@ p {
 #mainNav .navbar-brand img {
   height: 1.5rem;
 }
+
+/* Navbar letras */
 #mainNav .navbar-nav .nav-item .nav-link {
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 0.95rem;
@@ -10926,6 +10929,7 @@ p {
     height: 2rem;
     transition: height 0.3s ease-in-out;
   }
+  /* color navbar */
   #mainNav.navbar-shrink {
     padding-top: 1rem;
     padding-bottom: 1rem;
@@ -11352,21 +11356,57 @@ section#contact form#contactForm :-ms-input-placeholder {
 
 /* Filtro */
 
-/* Estilo específico para el contenedor de los checkboxes en el filtro */
 #filter-container .d-flex {
   display: flex;
-  justify-content: center; /* Centra los elementos horizontalmente */
-  flex-wrap: wrap; /* Ajusta los elementos si no caben en una línea */
+  justify-content: center; 
+  flex-wrap: wrap; 
 }
 
-/* Estilo para los elementos individuales del filtro */
 #filter-container .form-check {
-  margin: 0.5rem; /* Espaciado entre los checkboxes */
+  margin: 0.5rem; 
 }
 
-/* Opcional: Estilo para los labels de los checkboxes */
 #filter-container .form-check-label {
-  margin-left: 0.5rem; /* Espaciado entre el checkbox y la etiqueta */
-  margin-right: 0.5rem; /* Espaciado entre el checkbox y la etiqueta */
-  font-size: 1rem; /* Tamaño del texto de la etiqueta */
+  margin-left: 0.5rem; 
+  margin-right: 0.5rem; 
+  font-size: 1rem;
+}
+
+#final {
+  margin: 0;
+  padding: 0;
+}
+.footer {
+  background-color: #6c757d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-background {
+  color: #b07f98;
+}
+
+.icon-foreground {
+  color: #ffffff;
+}
+
+.custom-checkbox .form-check-input:checked {
+  background-color: #c895e6; 
+  border-color: #c895e6; 
+}
+
+.custom-checkbox .form-check-input:focus {
+  box-shadow: 0 0 0 0.2rem rgba(214, 178, 235, 0.50);
+}
+
+.custom-btn {
+  background-color: #d3bae6;
+  color: #ffffff;
+  border: none;
+}
+
+.custom-btn:hover {
+  background-color: #60417a;
+  color: #ffffff;
 }

@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>The Bridial Boutique TBB</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.0/font/bootstrap-icons.min.css" rel="stylesheet">
+        <style>
+            .portfolio-item {
+                display: block;
+                margin-bottom: 30px;
+            }
+    
+            .portfolio-caption {
+                text-align: center;
+            }
+    
+            .portfolio-caption-heading {
+                font-size: 1.5rem;
+                margin-bottom: 10px;
+            }
+    
+            .portfolio-caption-subheading {
+                font-size: 1rem;
+                text-transform: uppercase;
+                color: #777;
+            }
+        </style>
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand" href="#page-top"><img src="Imagenes/image-removebg-preview (2).png" alt="Logo" style="width: 100px; height: auto;"/></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars ms-1"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="#portfolio">Catálogo</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#services">Sobre nosotros</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead">
+            <div class="container">
+                <div class="masthead-subheading">Bienvenida a</div>
+                <div class="masthead-heading text-uppercase">The bridal boutique</div>
+                <!-- <a class="btn btn-primary btn-xl text-uppercase" href="#services">Tell Me More</a> -->
+            </div>
+        </header>
+        
+        
+        <!-- Portfolio Grid-->
+        <section class="page-section bg-light" id="portfolio">
+            <div class="container-portfolio">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Nuestros vestidos</h2>
+                    <h3 class="section-subheading text-muted">Vestidos que cuentan tu historia de amor.</h3>
+                </div>
+
+            <div id="filter-container" class="container text-center my-4">
+                <!-- Filtro de Tallas con Checkboxes -->
+                <div id="filter-container" class="container text-center my-4">
+                    <h4>Filtrar por Talla:</h4>
+                    <div class="d-flex justify-content-center flex-wrap">
+                        <div class="form-check mx-2">
+                            <input class="form-check-input" type="checkbox" id="size-xs" value="XS" data-type="size">
+                            <label class="form-check-label" for="size-xs">XS</label>
+                        </div>
+                        <div class="form-check mx-2"> 
+                            <input class="form-check-input" type="checkbox" id="size-s" value="S" data-type="size">
+                            <label class="form-check-label" for="size-s">S</label>
+                        </div>
+                        <div class="form-check mx-2">
+                            <input class="form-check-input" type="checkbox" id="size-m" value="M" data-type="size">
+                            <label class="form-check-label" for="size-m">M</label>
+                        </div>
+                        <div class="form-check mx-2">
+                            <input class="form-check-input" type="checkbox" id="size-l" value="L" data-type="size">
+                            <label class="form-check-label" for="size-l">L</label>
+                        </div>
+                        <div class="form-check mx-2">
+                            <input class="form-check-input" type="checkbox" id="size-xl" value="XL" data-type="size">
+                            <label class="form-check-label" for="size-xl">XL</label>
+                        </div>
+                    </div>
+                </div>
+                <!-- Filtro po cortes -->
+                <h4 class="mt-4">Filtrar por Tipo de Corte:</h4>
+                <div class="d-flex justify-content-center flex-wrap">
+                    <div class="form-check mx-2">
+                        <input class="form-check-input" type="checkbox" id="en-A" value="A" data-type="cut">
+                        <label class="form-check-label" for="en-A">En A</label>
+                    </div>
+                    <div class="form-check mx-2">
+                        <input class="form-check-input" type="checkbox" id="corte-princesa" value="princesa" data-type="cut">
+                        <label class="form-check-label" for="corte-princesa">Corte Princesa</label>
+                    </div>
+                    <div class="form-check mx-2">
+                        <input class="form-check-input" type="checkbox" id="trompeta" value="trompeta" data-type="cut">
+                        <label class="form-check-label" for="trompeta">Trompeta</label>
+                    </div>
+                    <div class="form-check mx-2">
+                        <input class="form-check-input" type="checkbox" id="sirena" value="sirena" data-type="cut">
+                        <label class="form-check-label" for="sirena">Sirena</label>
+                    </div>
+                    <div class="form-check mx-2">
+                        <input class="form-check-input" type="checkbox" id="moderno" value="moderno" data-type="cut">
+                        <label class="form-check-label" for="moderno">Moderno</label>
+                    </div>
+                </div>
+                </div>
+            </div>
+
+                <div class="row" id="portfolio-items">
+                        <!-- Portfolio item 1-->
+                        <div class="col-lg-4 col-sm-6 mb-4" data-size="XS" data-cut="princesa">
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><img src="imagenes/image-removebg-preview (3).png"  width="200" height="auto"></div>
+                                </div>
+                                <img class="img-fluid" src="https://images.pexels.com/photos/20352745/pexels-photo-20352745/free-photo-of-mujer-modelo-maqueta-en-pie.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Vestido 1</div>
+                                <div class="portfolio-caption-subheading text-muted">XS</div>
+                                <div class="portfolio-caption-subheading text-muted">Corte Princesa</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4" data-size="M" data-cut="A">
+                        <!-- Portfolio item 2-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><img src="imagenes/image-removebg-preview (3).png"  width="200" height="auto"></div>
+                                </div>
+                                <img class="img-fluid" src="https://images.pexels.com/photos/20352745/pexels-photo-20352745/free-photo-of-mujer-modelo-maqueta-en-pie.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Vestido 2</div>
+                                <div class="portfolio-caption-subheading text-muted">M</div>
+                                <div class="portfolio-caption-subheading text-muted">Corte en A</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4" data-size="L" data-cut="trompeta">
+                        <!-- Portfolio item 3-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal3">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><img src="imagenes/image-removebg-preview (3).png"  width="200" height="auto"></div>
+                                </div>
+                                <img class="img-fluid" src="https://images.pexels.com/photos/20352745/pexels-photo-20352745/free-photo-of-mujer-modelo-maqueta-en-pie.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Vestido 3</div>
+                                <div class="portfolio-caption-subheading text-muted">L</div>
+                                <div class="portfolio-caption-subheading text-muted">Corte Trompeta</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0" data-size="S" data-cut="sirena">
+                        <!-- Portfolio item 4-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal4">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><img src="imagenes/image-removebg-preview (3).png"  width="200" height="auto"></div>
+                                </div>
+                                <img class="img-fluid" src="https://images.pexels.com/photos/20352745/pexels-photo-20352745/free-photo-of-mujer-modelo-maqueta-en-pie.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Vestido 4</div>
+                                <div class="portfolio-caption-subheading text-muted">S</div>
+                                <div class="portfolio-caption-subheading text-muted">Corte Sirena</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0" data-size="M" data-cut="moderno">
+                        <!-- Portfolio item 5-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal5">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><img src="imagenes/image-removebg-preview (3).png"  width="200" height="auto"></div>
+                                </div>
+                                <img class="img-fluid" src="https://images.pexels.com/photos/20352745/pexels-photo-20352745/free-photo-of-mujer-modelo-maqueta-en-pie.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Vestido 5</div>
+                                <div class="portfolio-caption-subheading text-muted">M</div>
+                                <div class="portfolio-caption-subheading text-muted">Corte Moderno</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6" data-size="XL" data-cut="sirena">
+                        <!-- Portfolio item 6-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal6">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><img src="imagenes/image-removebg-preview (3).png"  width="200" height="auto"></div>
+                                </div>
+                                <img class="img-fluid" src="https://images.pexels.com/photos/20352745/pexels-photo-20352745/free-photo-of-mujer-modelo-maqueta-en-pie.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Vestido 6</div>
+                                <div class="portfolio-caption-subheading text-muted">XL</div>
+                                <div class="portfolio-caption-subheading text-muted">Corte Sirena</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services-->
+        <section class="page-section" id="services">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Servicios</h2>
+                    <h3 class="section-subheading text-muted">¿Qué hacemos?</h3>
+                </div>
+                <div class="row text-center">
+                    <div class="col-md-6">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="my-3">Vender</h4>
+                        <p class="text-muted">Vendemos...</p>
+                    </div>
+                    <div class="col-md-6">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="my-3">Compramos</h4>
+                        <p class="text-muted">Compramos...</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer-->
+        <footer class="footer py-4">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-4 text-lg-start">Copyright &copy; Your Website 2023</div>
+                    <div class="col-lg-4 my-3 my-lg-0">
+                        <a class="btn btn-dark btn-social mx-2" href="https://www.instagram.com/tbb_the_bridal_boutique/" aria-label="instagram"><i class="bi bi-instagram"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="https://www.facebook.com/profile.php?id=61552320991958" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="https://wa.link/wag27x" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Portfolio Modals-->
+        <!-- Portfolio item 1 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Vestido 1</h2>
+                                    <p class="item-intro text-muted">Vestido 1</p>
+                                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                            <img src="https://images.pexels.com/photos/20352745/pexels-photo-20352745/free-photo-of-mujer-modelo-maqueta-en-pie.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" class="img-fluid d-block mx-auto" alt="...">
+                                        </div>
+                                            <div class="carousel-item">
+                                            <img src="https://images.pexels.com/photos/20352745/pexels-photo-20352745/free-photo-of-mujer-modelo-maqueta-en-pie.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" class="img-fluid d-block mx-auto" alt="...">
+                                        </div>
+                                            <div class="carousel-item">
+                                            <img src="https://images.pexels.com/photos/20352745/pexels-photo-20352745/free-photo-of-mujer-modelo-maqueta-en-pie.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" class="img-fluid d-block mx-auto" alt="...">
+                                        </div>
+                                        </div>
+                                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                                    </div>
+                                    <p>Vestido bonito</p>
+                                    <ul class="list-inline">
+                                        <li>
+                                            <strong>Talla:</strong>
+                                            Xs
+                                        </li>
+                                        <li>
+                                            <strong>Precio:</strong>
+                                            Tus nalgas
+                                        </li>
+                                    </ul>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Cerrar
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio item 2 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Vestido 2</h2>
+                                    <p class="item-intro text-muted">Vestido 2</p>
+                                    <div id="carouselExampleControls2" class="carousel slide" data-bs-ride="carousel">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                            <img src="https://images.pexels.com/photos/20352745/pexels-photo-20352745/free-photo-of-mujer-modelo-maqueta-en-pie.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" class="img-fluid d-block mx-auto" alt="...">
+                                        </div>
+                                            <div class="carousel-item">
+                                            <img src="https://images.pexels.com/photos/20352745/pexels-photo-20352745/free-photo-of-mujer-modelo-maqueta-en-pie.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" class="img-fluid d-block mx-auto" alt="...">
+                                        </div>
+                                            <div class="carousel-item">
+                                            <img src="https://images.pexels.com/photos/20352745/pexels-photo-20352745/free-photo-of-mujer-modelo-maqueta-en-pie.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" class="img-fluid d-block mx-auto" alt="...">
+                                        </div>
+                                        </div>
+                                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls2" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls2" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                                    </div>
+                                    <p>Vestido bonito</p>
+                                    <ul class="list-inline">
+                                        <li>
+                                            <strong>Talla:</strong>
+                                            Xs
+                                        </li>
+                                        <li>
+                                            <strong>Precio:</strong>
+                                            Tus nalgas
+                                        </li>
+                                    </ul>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Cerrar
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio item 3 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Vestido 3</h2>
+                                    <p class="item-intro text-muted">Vestido 3</p>
+                                    <div id="carouselExampleControls3" class="carousel slide" data-bs-ride="carousel">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                            <img src="https://images.pexels.com/photos/20352745/pexels-photo-20352745/free-photo-of-mujer-modelo-maqueta-en-pie.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" class="img-fluid d-block mx-auto" alt="...">
+                                        </div>
+                                            <div class="carousel-item">
+                                            <img src="https://images.pexels.com/photos/20352745/pexels-photo-20352745/free-photo-of-mujer-modelo-maqueta-en-pie.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" class="img-fluid d-block mx-auto" alt="...">
+                                        </div>
+                                            <div class="carousel-item">
+                                            <img src="https://images.pexels.com/photos/20352745/pexels-photo-20352745/free-photo-of-mujer-modelo-maqueta-en-pie.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" class="img-fluid d-block mx-auto" alt="...">
+                                        </div>
+                                        </div>
+                                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls3" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls3" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                                    </div>
+                                    <p>Vestido bonito</p>
+                                    <ul class="list-inline">
+                                        <li>
+                                            <strong>Talla:</strong>
+                                            Xs
+                                        </li>
+                                        <li>
+                                            <strong>Precio:</strong>
+                                            Tus nalgas
+                                        </li>
+                                    </ul>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Cerrar
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio item 4 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Vestido 4</h2>
+                                    <p class="item-intro text-muted">Vestido 4</p>
+                                    <div id="carouselExampleControls4" class="carousel slide" data-bs-ride="carousel">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                            <img src="https://images.pexels.com/photos/20352745/pexels-photo-20352745/free-photo-of-mujer-modelo-maqueta-en-pie.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" class="img-fluid d-block mx-auto" alt="...">
+                                        </div>
+                                            <div class="carousel-item">
+                                            <img src="https://images.pexels.com/photos/20352745/pexels-photo-20352745/free-photo-of-mujer-modelo-maqueta-en-pie.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" class="img-fluid d-block mx-auto" alt="...">
+                                        </div>
+                                            <div class="carousel-item">
+                                            <img src="https://images.pexels.com/photos/20352745/pexels-photo-20352745/free-photo-of-mujer-modelo-maqueta-en-pie.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" class="img-fluid d-block mx-auto" alt="...">
+                                        </div>
+                                        </div>
+                                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls4" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls4" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                                    </div>
+                                    <p>Vestido bonito</p>
+                                    <ul class="list-inline">
+                                        <li>
+                                            <strong>Talla:</strong>
+                                            Xs
+                                        </li>
+                                        <li>
+                                            <strong>Precio:</strong>
+                                            Tus nalgas
+                                        </li>
+                                    </ul>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Cerrar
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio item 5 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Vestido 5</h2>
+                                    <p class="item-intro text-muted">Vestido 5</p>
+                                    <div id="carouselExampleControls5" class="carousel slide" data-bs-ride="carousel">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                            <img src="https://images.pexels.com/photos/20352745/pexels-photo-20352745/free-photo-of-mujer-modelo-maqueta-en-pie.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" class="img-fluid d-block mx-auto" alt="...">
+                                        </div>
+                                            <div class="carousel-item">
+                                            <img src="https://images.pexels.com/photos/20352745/pexels-photo-20352745/free-photo-of-mujer-modelo-maqueta-en-pie.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" class="img-fluid d-block mx-auto" alt="...">
+                                        </div>
+                                            <div class="carousel-item">
+                                            <img src="https://images.pexels.com/photos/20352745/pexels-photo-20352745/free-photo-of-mujer-modelo-maqueta-en-pie.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" class="img-fluid d-block mx-auto" alt="...">
+                                        </div>
+                                        </div>
+                                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls5" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls5" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                                    </div>
+                                    <p>Vestido bonito</p>
+                                    <ul class="list-inline">
+                                        <li>
+                                            <strong>Talla:</strong>
+                                            Xs
+                                        </li>
+                                        <li>
+                                            <strong>Precio:</strong>
+                                            Tus nalgas
+                                        </li>
+                                    </ul>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Cerrar
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio item 6 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Vestido 6</h2>
+                                    <p class="item-intro text-muted">Vestido 6</p>
+                                    <div id="carouselExampleControls6" class="carousel slide" data-bs-ride="carousel">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                            <img src="https://images.pexels.com/photos/20352745/pexels-photo-20352745/free-photo-of-mujer-modelo-maqueta-en-pie.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" class="img-fluid d-block mx-auto" alt="...">
+                                        </div>
+                                            <div class="carousel-item">
+                                            <img src="https://images.pexels.com/photos/20352745/pexels-photo-20352745/free-photo-of-mujer-modelo-maqueta-en-pie.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" class="img-fluid d-block mx-auto" alt="...">
+                                        </div>
+                                            <div class="carousel-item">
+                                            <img src="https://images.pexels.com/photos/20352745/pexels-photo-20352745/free-photo-of-mujer-modelo-maqueta-en-pie.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" class="img-fluid d-block mx-auto" alt="...">
+                                        </div>
+                                        </div>
+                                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls6" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls6" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                                    </div>
+                                    <p>Vestido bonito</p>
+                                    <ul class="list-inline">
+                                        <li>
+                                            <strong>Talla:</strong>
+                                            Xs
+                                        </li>
+                                        <li>
+                                            <strong>Precio:</strong>
+                                            Tus nalgas
+                                        </li>
+                                    </ul>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Cerrar
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+        <!-- jQuery y Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- JavaScript para el Filtro -->
+    <script>
+        // Obtener todos los checkboxes
+        const sizeCheckboxes = document.querySelectorAll('#filter-container .form-check-input[data-type="size"]');
+        const cutCheckboxes = document.querySelectorAll('#filter-container .form-check-input[data-type="cut"]');
+
+        // Función para filtrar elementos del portafolio
+        function filterPortfolio() {
+            // Obtener todas las tallas seleccionadas
+            const selectedSizes = Array.from(sizeCheckboxes)
+                // Obtener todas las tallas seleccionadas
+                .filter(cb => cb.checked)
+                // Mapear los valores tallas seleccionadas
+                .map(cb => cb.value);
+
+            // Obtener todos los tipos de corte seleccionados
+            const selectedCuts = Array.from(cutCheckboxes)
+                .filter(cb => cb.checked)
+                .map(cb => cb.value);
+
+            // Filtrar los elementos del portafolio según las tallas y tipos de corte seleccionados
+            const portfolioItems = document.querySelectorAll('#portfolio-items .portfolio-item');
+            portfolioItems.forEach(item => {
+                const itemSize = item.parentElement.getAttribute('data-size');
+                const itemCut = item.parentElement.getAttribute('data-cut');
+
+                // Mostrar el elemento si la talla o tipo de corte coinciden, o si no hay filtros aplicados
+                if ((selectedSizes.includes(itemSize) || selectedSizes.length === 0) &&
+                    (selectedCuts.includes(itemCut) || selectedCuts.length === 0)) {
+                    item.parentElement.style.display = 'block';
+                } else {
+                    item.parentElement.style.display = 'none';
+                }
+            });
+        }
+
+        // Manejar el evento de cambio en cada checkbox
+        sizeCheckboxes.forEach(checkbox => checkbox.addEventListener('change', filterPortfolio));
+        cutCheckboxes.forEach(checkbox => checkbox.addEventListener('change', filterPortfolio));
+
+    </script>
+
+    </body>
+</html>
+
